@@ -9,8 +9,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 // pages
-import Tallrikar from './pages/Tallrikar'
-import Cataring from './pages/Catering';
+import Tallrikar from './pages/Tallrikar';
+import Catering from './pages/Catering'
 import RullarOchBröd from './pages/RullarOchBröd';
 import Buffe from './pages/Buffe';
 import Atmosfären from './pages/Atmosfären';
@@ -55,7 +55,7 @@ const router = createBrowserRouter ([
     path: '/catering',
     element:  <div> 
       <Navbar/> 
-      <Cataring/> 
+      <Catering/> 
       <ScrollToTop/>
     </div>
   },
