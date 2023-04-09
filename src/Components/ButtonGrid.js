@@ -9,7 +9,7 @@ import image7 from '../Assets/images/ButtonImages/NyMenu 936x936.png'
 import { Link } from 'react-router-dom';
 
 function ButtonGrid() {
-    const [cardData, setCardData] = useState([
+    const [cardData, /* setCardData*/] = useState([
         {
           image: image3,
           text: 'Tallrikar ',

@@ -21,7 +21,7 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    console.log("run useEffect soical media scroll")
+   
     if (window.location.hash === '#social-media') {
       socialMediaRef.current.scrollIntoView({ behavior: 'smooth' });
     }

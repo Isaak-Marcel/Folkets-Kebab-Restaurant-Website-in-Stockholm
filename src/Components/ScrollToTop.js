@@ -11,7 +11,7 @@ function ScrollToTop() {
 
         // Mabey add so that links on mobile retracts
         window.scroll(0,0);
-        console.log("scroll to top")
+       
     }, [pathName] )
 
 
