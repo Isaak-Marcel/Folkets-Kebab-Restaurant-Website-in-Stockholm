@@ -34,7 +34,7 @@ import './styles/Adress.css'
 import './styles/Dish.css'
 import './styles/Tallrikar.css'
 
-
+//fix lowercasing
 // require('dotenv').config();
 
 const router = createBrowserRouter ([
