@@ -1,6 +1,6 @@
 import React, { useEffect,useRef } from 'react'
 import Slider from 'react-slick'
-import $ from 'jquery';
+
 
 /* Images */
 import image1 from '../Assets/images/HomeScreenPictures/Kebab kyckling eller mix3 (1).png'

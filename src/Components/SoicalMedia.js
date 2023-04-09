@@ -11,23 +11,23 @@ function SoicalMedia() {
         <h2>Soical Media</h2>
         <ul className='social-cont'>
            <li className='social'>
-              <a href='' className='soical-a'>
-                <img  src={Tiktok} className='social-image' />    
-                <span href='dwa'>@folkets.kebab</span> 
+              <a href='https://www.tiktok.com/@folkets.kebab' className='soical-a' target="_blank" rel="noopener noreferrer">
+                <img  src={Tiktok} className='social-image' alt='Tiktok logo' />    
+                <span >@folkets.kebab</span> 
               </a>
             </li>
           
            <li className='social'>
-              <a href=''className='soical-a' >
-                <img  src={Instagram} className='social-image' />
-                <span href='dwa'>@folketskebab_hornsgatan92</span> 
+              <a href='https://www.instagram.com/folketskebab_hornsgatan92'className='soical-a' target="_blank" rel="noopener noreferrer" >
+                <img  src={Instagram} className='social-image' alt='Instagram logo'/>
+                <span >@folketskebab_hornsgatan92</span> 
               </a> 
            </li>
            
            <li className='social'>
-              <a href='' className='soical-a'>
-              <img  src={Facebook} className='social-image' />
-              <span href='dwa'>@folketskebab.hornsgatan92</span> 
+              <a href='https://www.facebook.com/folketskebab.hornsgatan92' className='soical-a' target="_blank" rel="noopener noreferrer">
+              <img  src={Facebook} className='social-image' alt='FaceBook logo' />
+              <span >@folketskebab.hornsgatan92</span> 
               </a>
           </li>
         </ul>

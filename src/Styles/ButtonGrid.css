@@ -13,7 +13,7 @@ padding: 0;
 
 .card {
 display: flex;
-align-items: start;
+align-items: flex-start;
 justify-content: top;
 width: 300px;
 height: auto;
@@ -133,7 +133,7 @@ right: 0;
 @media screen and (max-width: 575px) {
     .card {
         flex-direction: row;
-        justify-content: start;
+        justify-content: flex-start;
         align-items: center;
         max-width: 100%;
         border-bottom: solid 1px gray;

@@ -18,13 +18,14 @@ import { useLocation } from "react-router-dom";
 
 function App() {
   const socialMediaRef = useRef(null);
+  const location = useLocation();
 
   useEffect(() => {
     console.log("run useEffect soical media scroll")
     if (window.location.hash === '#social-media') {
       socialMediaRef.current.scrollIntoView({ behavior: 'smooth' });
     }
-  }, [useLocation()]);
+  }, [location]);
 
   return (
     <div className="body">
