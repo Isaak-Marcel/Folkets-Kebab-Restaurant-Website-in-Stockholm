@@ -1,5 +1,5 @@
 import React from 'react'
-import Dish from '../Components/Dish';
+import Dish from '../components/Dish';
 import image1 from '../Assets/images/Tallrikkar/arabi 30x20.jpg'
 import falafel from '../Assets/images/Tallrikkar/falafel 30x20.jpg'
 import kebab from '../Assets/images/Tallrikkar/Kebab 30x20.jpg'

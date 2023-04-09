@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './Styles/Navbar.css'
 import App from './App';
 import { createBrowserRouter, RouterProvider, } from 'react-router-dom';
 
@@ -10,30 +9,30 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 // pages
-import Tallrikar from './Pages/Tallrikar'
-import Cataring from './Pages/Catering';
-import RullarOchBröd from './Pages/RullarOchBröd';
-import Buffe from './Pages/Buffe';
-import Atmosfären from './Pages/Atmosfären';
-import JobbaFörOss from './Pages/JobbaFörOss';
-import Info from './Pages/Info';
-import NyMeny from './Pages/NyMeny';
+import Tallrikar from './pages/Tallrikar'
+import Cataring from './pages/Catering';
+import RullarOchBröd from './pages/RullarOchBröd';
+import Buffe from './pages/Buffe';
+import Atmosfären from './pages/Atmosfären';
+import JobbaFörOss from './pages/JobbaFörOss';
+import Info from './pages/Info';
+import NyMeny from './pages/NyMeny';
 
 
 // Components
-import ScrollToTop from './Components/ScrollToTop';
+import ScrollToTop from './components/ScrollToTop';
 
-import Navbar from './Components/Navbar';
+import Navbar from './components/Navbar';
 /* Styles */
-import '../src/Styles/MainSlider.css'
-import '../src/Styles/ButtonGrid.css'
-import '../src/Styles/AboutUs.css'
-import '../src/Styles/App.css'
-import './Styles/HittaOss.css'
-import './Styles/Adress.css'
-import './Styles/Dish.css'
-
-import './Styles/Tallrikar.css'
+import './styles/Navbar.css'
+import '../src/styles/MainSlider.css'
+import '../src/styles/ButtonGrid.css'
+import '../src/styles/AboutUs.css'
+import '../src/styles/App.css'
+import './styles/HittaOss.css'
+import './styles/Adress.css'
+import './styles/Dish.css'
+import './styles/Tallrikar.css'
 
 
 // require('dotenv').config();

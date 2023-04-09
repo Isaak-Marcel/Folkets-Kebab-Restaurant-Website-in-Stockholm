@@ -1,11 +1,11 @@
-import ButtonGrid from "./Components/ButtonGrid";
-import MainSlider from "./Components/MainSlider";
-import Navbar from "./Components/Navbar";
-import AboutUs from "./Components/AboutUs";
-import HittaOss from "./Components/HittaOss";
-import SoicalMedia from "./Components/SoicalMedia";
-import Adress from "./Components/Adress";
-import ScrollToTop from "./Components/ScrollToTop";
+import ButtonGrid from "./components/ButtonGrid";
+import MainSlider from "./components/MainSlider";
+import Navbar from "./components/Navbar";
+import AboutUs from "./components/AboutUs";
+import HittaOss from "./components/HittaOss";
+import SoicalMedia from "./components/SoicalMedia";
+import Adress from "./components/Adress";
+import ScrollToTop from "./components/ScrollToTop";
 import React, { useEffect, useRef } from 'react';
 import { useLocation } from "react-router-dom";
 
