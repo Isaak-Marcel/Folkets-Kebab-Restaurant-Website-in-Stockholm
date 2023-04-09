@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import ButtonGrid from "./Components/ButtonGrid";
+import MainSlider from "./Components/MainSlider";
+import Navbar from "./Components/Navbar";
+import AboutUs from "./Components/AboutUs";
+import HittaOss from "./Components/HittaOss";
+import SoicalMedia from "./Components/SoicalMedia";
+import Adress from "./Components/Adress";
+import ScrollToTop from "./Components/ScrollToTop";
+import React, { useEffect, useRef } from 'react';
+import { useLocation } from "react-router-dom";
+
+
+
+
+
+
+
 
 function App() {
+  const socialMediaRef = useRef(null);
+
+  useEffect(() => {
+    console.log("run useEffect soical media scroll")
+    if (window.location.hash === '#social-media') {
+      socialMediaRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [useLocation()]);
+
   return (
-    <div className="App">
+    <div className="body">
+      <ScrollToTop/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Navbar/>
       </header>
+      <MainSlider/>
+      <div className='button-aboutUs-cont'>
+              <ButtonGrid/>
+              <AboutUs/>
+              <HittaOss/>
+              <div id="social-meida" ref={socialMediaRef}>
+               <SoicalMedia/>
+              </div>
+              <Adress/>
+      </div>
     </div>
   );
 }

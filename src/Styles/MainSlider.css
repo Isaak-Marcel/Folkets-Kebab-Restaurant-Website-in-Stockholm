@@ -1,0 +1,101 @@
+.silder-image-div{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-image{
+    height: 100%;
+    width: 100%;
+}
+
+.silder-background{
+    background: #f8f4e9;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.silder-cont{
+    margin-top: 0 ;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    position: relative;
+    z-index: 0;
+    
+
+}
+/* Styles for inactive dots */
+.slick-dots li button:before {
+    font-size: 14px; /* Set the desired font size */
+    color: black; /* Set the color for inactive dots */
+    opacity: 50%;
+}
+
+/* Styles for active dot */
+.slick-dots li.slick-active button:before {
+color: black; /* Set the color for active dot */
+opacity: 100%;
+}
+  
+@media screen and (max-width: 900px) { 
+    .silder-cont{
+    max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) { 
+    .silder-background {padding-top: 20px;}
+}
+
+@media screen and (max-width: 361px) { 
+    .silder-cont{
+        
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+        position: relative;
+        z-index: 0;
+       
+    
+    }
+    .silder-background {padding-top: 0px; margin-top: -30px; }
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(245, 167, 0);
+  font-size: 50px;
+}
+
+.slick-prev {
+  left: 0;
+  
+}
+
+.slick-next {
+    right: 30px;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+  }
+  

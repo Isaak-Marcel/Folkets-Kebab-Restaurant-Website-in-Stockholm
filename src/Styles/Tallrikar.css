@@ -1,0 +1,42 @@
+.dish-list{
+    display: flex;
+    text-align: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    
+}
+.dish h3{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    outline: 0;
+}
+.dish{
+    margin: 0 auto;
+
+    border-radius: 10%;
+    width: 500px;
+    
+}
+.dish img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1096px){
+    .dish{
+        width: 1000px;
+    }
+}
+@media screen and (max-width: 500px){
+    .dish h3{
+        font-size: 5vw;
+        text-align: center;
+        margin: 0 auto;
+        outline: 0;
+    }
+}
+    
+    
+
+
