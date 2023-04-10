@@ -46,7 +46,7 @@ function MainSlider() {
       <Slider ref={silderRef} {...settings}>
         {images.map((image) => (
           <div key={image.src} className='silder-image-div'>
-            <img src={image.src} className='slider-image' alt={image.alt}  />
+            <img src={image.src} className='slider-image' /*fix the alts*/alt={image.alt}  />
           </div>
         ))}
       </Slider>

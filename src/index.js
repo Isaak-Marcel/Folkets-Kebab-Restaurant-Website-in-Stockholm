@@ -35,6 +35,7 @@ import './styles/Dish.css'
 import './styles/Tallrikar.css'
 import './styles/Atmosfären.css'
 import './styles/GridOfImages.css'
+import './styles/Info.css'
 
 //fix lowercasing
 // require('dotenv').config();

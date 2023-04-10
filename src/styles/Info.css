@@ -1,0 +1,80 @@
+
+.infoPage h1{
+    font-family: 'Point panther point panther 700', sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 2rem;
+        
+}
+
+.info-p {
+    
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 100%;
+    margin: 20px 0 30px;
+}
+
+.infoWrap{
+    width: 50%;
+}
+.info-image-warp{
+    width: 50%;
+}
+/* .infoPage{
+    
+} */
+.infoPageLogoWarper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.infoPageLogoWarper img{
+    width: 100%;
+    height: auto;
+    max-height: 80px;
+  
+}
+#foodoraLogo{
+    max-height: 50px;
+}
+
+.infoPI{
+    gap: 100px;
+
+}
+
+
+@media screen and (max-width: 940px ) {
+    .infoPI{
+        gap: 30px;
+    }
+    .infoPage p{
+        font-size: 1.2rem;
+    }
+    .info-image-warp{
+        width: 50%;
+    }
+    .info-image{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+
+@media screen and (max-width: 559px ) {
+    .infoPage p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 419px ) {
+    .infoPage p{
+        font-size: .8rem;
+    }
+}

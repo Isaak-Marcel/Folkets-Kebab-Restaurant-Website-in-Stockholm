@@ -15,14 +15,7 @@
   z-index: 2;
 }
 
-@media screen and (max-width: 361px) { 
-  .App-header{
-    top: 0;
-    position: relative;
-    width: 100%;
-    z-index: 2;
-  }
-}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -97,6 +90,7 @@
   transition: transform 0.3s ease;
 }
 
+
 .burger-animate {
   transform: rotate(45deg);
 }
@@ -138,6 +132,24 @@
 @media screen and (max-width: 969px) { 
   .logo{
     padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 361px) { 
+  .App-header{
+    top: 0;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+  }
+  .logo img{
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+
+  }
+  .logo{
+    width: auto;
   }
 }
 
