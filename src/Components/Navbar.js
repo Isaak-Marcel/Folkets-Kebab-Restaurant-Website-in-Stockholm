@@ -26,7 +26,7 @@ function Navbar() {
           <div className='nav-links-cont'>
                 <Link to="/" className="nav-link nav-link-row">Home</Link>
                 <Link to='/jobba-för-oss' className="nav-link nav-link-row">Jobba För Oss</Link>
-                <Link to="/catering" className="nav-link nav-link-row">Cataring</Link>
+                <Link to="/catering" className="nav-link nav-link-row">Catering</Link>
                 <Link to="/#social-media" className="nav-link nav-link-row">Soical Media</Link>
                 <Link to="/info" className="nav-link nav-link-row">Info</Link>
           </div>
@@ -37,7 +37,7 @@ function Navbar() {
               <Link to='/jobba-för-oss' className="nav-link nav-link-drop">Jobba För Oss</Link>
               <Link to="/#social-media"  className="nav-link nav-link-drop">Soical Media</Link>
               <Link to="/info" className="nav-link nav-link-drop">Info</Link>
-              <Link to="/catering" className="nav-link nav-link-drop">Cataring</Link>
+              <Link to="/catering" className="nav-link nav-link-drop">Catering</Link>
         </div>
     </nav>
   )

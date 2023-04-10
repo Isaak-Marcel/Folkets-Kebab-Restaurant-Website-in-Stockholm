@@ -1,7 +1,6 @@
 import React, { useEffect,useRef } from 'react'
 import Slider from 'react-slick'
 
-
 /* Images */
 import image1 from '../Assets/images/HomeScreenPictures/Kebab kyckling eller mix3 (1).png'
 import image2 from '../Assets/images/HomeScreenPictures/hemsidan ordning-2.png'
@@ -23,13 +22,13 @@ function MainSlider() {
 
 
   const images = [
-    { src: image1, alt: 'Image 1' },
-    { src: image2, alt: 'Image 2' },
-    { src: image3, alt: 'Image 3' },
-    { src: image4, alt: 'Image 3' },
-    { src: image5, alt: 'Image 3' },
-    { src: image6, alt: 'Image 3' },
-    { src: image7, alt: 'Image 3' },
+    { src: image1, 'aria-hidden': 'true' },
+    { src: image2, 'aria-hidden': 'true'},
+    { src: image3, 'aria-hidden': 'true'},
+    { src: image4, 'aria-hidden': 'true'},
+    { src: image5, 'aria-hidden': 'true'},
+    { src: image6, 'aria-hidden': 'true'},
+    { src: image7, 'aria-hidden': 'true'},
   ];
   
   const settings = {
