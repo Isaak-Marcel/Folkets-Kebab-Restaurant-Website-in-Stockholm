@@ -17,7 +17,7 @@ function Info() {
                     <p className='info-p'><strong>Vår vanliga à la carte-meny är öppen varje dag från kl. 10:00 - 04:00 </strong>, vilket ger dig möjligheten att avnjuta våra smakrika rätter när som helst på dagen.</p>
                 
                     <p className='info-p'>
-                    Om du föredrar att njuta av vår mat hemma kan du enkelt beställa online för avhämtning via <a href="https://www.foodora.se/restaurant/s0mu/folkets-kebab" target="_blank" rel="noopener noreferrer"> Foodora </a> eller <a  href="https://wolt.com/sv/swe/stockholm/restaurant/folkets-kebab-hornsgatan-1" target="_blank" rel="noopener noreferrer">Wolt</a>.
+                    Om du föredrar att njuta av vår mat hemma kan du enkelt beställa online för avhämtning via <a href="https://www.foodora.se/restaurant/s0mu/folkets-kebab" target="_blank" rel="noopener noreferrer"> Foodora </a> eller <a  href="https://wolt.com/sv/swe/stockholm/restaurant/folkets-kebab-hornsgatan-1" target="_blank" rel="noopener noreferrer">Wolt</a> eller <a href='https://www.ubereats.com/se/store/folkets-kebab/C64sE03rQimjsMUWUG20LQ' target="_blank" rel="noopener noreferrer">Uber Eats</a>.
                     </p>
                     <div className='infoPageLogoWarper'>
                       <a href="https://www.foodora.se/restaurant/s0mu/folkets-kebab" target="_blank" rel="noopener noreferrer"><img src={Foodora} height={50}  alt='Foodora logo' id='foodoraLogo'/></a>

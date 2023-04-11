@@ -47,8 +47,8 @@
     color: #b42d28;
 }
 
-.soical-a:hover,
-.hitta-a:hover {
+.soical-a:hover, 
+.hitta-a:hover, .soical-a:focus, .hitta-a:focus {
   color: #ff4d4d; /* brighter color */
 }
 

@@ -9,6 +9,15 @@
         
 }
 
+.infoPage a{
+    color: inherit;
+}
+
+.infoPage a:hover,.infoPage a:focus {
+    color: #ff4d4d; /* brighter color */
+}
+  
+
 .info-p {
     
     font-size: 1.4rem;
@@ -69,12 +78,26 @@
 
 @media screen and (max-width: 559px ) {
     .infoPage p{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
+   
 }
 
-@media screen and (max-width: 419px ) {
+@media screen and (max-width: 394px ) {
     .infoPage p{
-        font-size: .8rem;
+        font-size: 1rem;
     }
+    .infoPI{
+        gap: 20px;
+    }
+    .info-image{
+        width: 100%;
+        height: auto;
+    }
+    .infoPage{
+        padding: 15px;
+
+    }
+   
 }
+
