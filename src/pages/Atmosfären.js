@@ -1,60 +1,28 @@
-
-
-import React, { useEffect,useRef } from 'react'
-import Slider from 'react-slick'
+import React from 'react'
 
 /* Images */
 
-import bildUtanför from '../Assets/images/ButtonImages/Atmosfären 936x936.png'
-import image2 from '../Assets/images/HomeScreenPictures/hemsidan ordning-2.png'
-import image3 from '../Assets/images/HomeScreenPictures/hemsidan ordning-3.png'
-import image4 from '../Assets/images/HomeScreenPictures/hemsidan ordning-4.png'
-import image5 from '../Assets/images/HomeScreenPictures/hemsidan ordning-5.png'
-import image6 from '../Assets/images/HomeScreenPictures/hemsidan ordning-6.png'
-import image7 from '../Assets/images/HomeScreenPictures/hemsidan ordning-7.png'
+import bildUtanför from '../Assets/images/ButtonImages/Atmosfären 936x936.jpg'
+import image2 from '../Assets/images/Atmosfären/inside1 600x1067.jpg'
+import image3 from '../Assets/images/Atmosfären/inside2 600x1067.jpg'
+import image4 from '../Assets/images/Atmosfären/inside3 600x1067.jpg'
 
 function Atmosfären() {
-  const silderRef = useRef(null);
-
-  useEffect(() => {
-    if(silderRef.current){
-      silderRef.current.slickPlay()
-    }
-  }, []);
-
-
-
-  const images = [
-    { src: bildUtanför,'aria-hidden': 'true' },
-    { src: image2, 'aria-hidden': 'true' },
-    { src: image3, 'aria-hidden': 'true' },
-    { src: image4, 'aria-hidden': 'true' },
-    { src: image5, 'aria-hidden': 'true' },
-    { src: image6, 'aria-hidden': 'true' },
-    { src: image7, 'aria-hidden': 'true' },
-  ];
   
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3400,
-  };
+
   return (
-    <div className='silder-background'>
-    <div className='silder-cont'>
-      <Slider ref={silderRef} {...settings}>
-        {images.map((image) => (
-          <div key={image.src} className='silder-image-div'>
-            <img src={image.src} className='slider-image' alt={image.alt}  />
+      <div class="atm-warp">
+        <div className='atm'>
+          <h1 >Atmosfären</h1>
+          <div className="atmgrid">
+            <img src={bildUtanför} alt='' width={550} />
+            <img src={image4} alt='' className='image-grid-col-2'/>
+            <img src={image2} alt='' className='image-grid-col-2'/>
+            <img src={image3} alt='' />
           </div>
-        ))}
-      </Slider>
-    </div>
-    </div>
+        </div>
+        
+      </div>
   );
 
 }

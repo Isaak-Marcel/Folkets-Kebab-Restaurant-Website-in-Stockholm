@@ -37,6 +37,7 @@ import './styles/Atmosfären.css'
 import './styles/GridOfImages.css'
 import './styles/Info.css'
 import './styles/Buffe.css'
+import './styles/NyMeny.css'
 
 //fix lowercasing
 // require('dotenv').config();

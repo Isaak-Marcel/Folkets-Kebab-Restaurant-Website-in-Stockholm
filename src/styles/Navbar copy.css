@@ -1,0 +1,164 @@
+.body {
+  font-family: 'Point panther point panther 700', sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  
+}
+
+
+.App-header{
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #c10000;
+  padding: 0;
+  width: 100%;
+
+  
+}
+
+
+.nav-links-cont{
+ 
+  display: flex;
+  padding-left: 20px;
+ 
+}
+
+.logo {
+  width: 262px;
+  height: auto;
+  padding-right: 10vw;
+}
+
+.nav-link {
+  color: #000;
+  display: block;
+  padding-right: 30px;
+  font-family: 'Point panther point panther 700', sans-serif;
+  text-decoration: none;
+}
+:hover.nav-link,.nav-link:focus{
+  text-decoration: underline;
+}
+
+
+.drop-links{
+  display: none;
+  flex-direction: column;
+  visibility: hidden;
+  justify-content: space-around;
+  
+
+}
+.drop-links-show{
+  display: flex;
+}
+
+.nav-link-drop{
+  background-color: white;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-right: 10px;
+  /* outline: solid 2px black; */
+  display: flex;
+  align-items: center;
+}
+
+.burger{
+  display: none;
+  height: 50px;
+  width: 50px ;
+  justify-content: center;
+  align-items: center;
+  background-Color: transparent;
+  border: none;
+  color: black;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+
+.burger-animate {
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 900px) { 
+  .nav-link-row {
+    color: #000;
+    display: none;
+  }  
+  .drop-links{
+    visibility: visible;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    
+  }
+  .logo{
+    padding-right: 0px;
+    overflow: hidden;
+  }
+  .burger{
+    display: block;
+    
+
+  }
+  .nav{
+    gap: 0;
+    justify-content: space-between;
+  }
+  .nav-links-cont{
+    padding: 0;
+    
+  }
+  .nav-link{
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 969px) { 
+  .logo{
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 361px) { 
+  .App-header{
+    top: 0;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+  }
+  .logo img{
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+
+  }
+  .logo{
+    width: auto;
+  }
+}
+
+
+@font-face {
+  font-family: 'Point panther point panther 700';
+  src: url('../Assets/fonts/point-panther-point-panther-bold-700.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
