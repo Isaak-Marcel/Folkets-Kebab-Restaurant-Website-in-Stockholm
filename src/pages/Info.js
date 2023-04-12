@@ -2,6 +2,7 @@ import React from 'react'
 import infoImage from '../Assets/images/InfoPageImages/info chicken 3840x576 Temp.jpg'
 import Foodora from '../Assets/images/InfoPageImages/Foodora logo.png'
 import Wots from '../Assets/images/InfoPageImages/Wolts logo.png'
+import { Helmet } from 'react-helmet-async'
 
 function Info() {
   const images = [];
@@ -10,6 +11,11 @@ function Info() {
 
   return (
     <div className='button-aboutUs-cont infoPage' >
+      <Helmet>
+        <title>Info</title>
+        <meta name="description" content="Vi tar också hembeställning med Uber Eats, Wolt och Foodora. Vi har öppet mellan 10:00 - 04:00 alla dagar i veckan." />
+        <link rel="canonical" href="/info"/>
+      </Helmet>
       <h1>Info</h1> 
         <div style={{display: 'flex',}}  className='infoPI'>
               <div className="infoWrap">

@@ -3,11 +3,16 @@ import Arabi from '../Assets/images/ButtonImages/Arabi 936x936.jpg'
 import Lammstek from '../Assets/images/NyMeny/Lammstek 936x936.jpg'
 import Special from '../Assets/images/NyMeny/special 936x936 png.jpg'
 import Mix_Shish_Kebab_och_Lammfile from '../Assets/images/NyMeny/Mix shish kebab och lammfile 936x936.jpg'
-
+import { Helmet } from 'react-helmet-async';
 
 function NyMeny() {
   return (
     <div className='nyMeny button-aboutUs-cont '>
+        <Helmet>
+          <title>Ny På Menyn</title>
+          <meta name="description" content="Vi på Folkets Kebab försöker alltid expandera vårt sortiment av rätter här är några av våra allra nyaste."/>
+          <link rel="canonical" href="/ny-meny"/>
+        </Helmet>
         <h1>Ny på Menyn</h1>
         <div className="nyMenyGrid">
           <div>

@@ -8,6 +8,8 @@ import Adress from "./components/Adress";
 import ScrollToTop from "./components/ScrollToTop";
 import React, { useEffect, useRef } from 'react';
 import { useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+
 
 
 
@@ -17,11 +19,12 @@ import { useLocation } from "react-router-dom";
 
 
 function App() {
+
   const socialMediaRef = useRef(null);
   const location = useLocation();
 
   useEffect(() => {
-   
+    
     if (window.location.hash === '#social-media') {
       socialMediaRef.current.scrollIntoView({ behavior: 'smooth' });
     }
@@ -29,6 +32,11 @@ function App() {
 
   return (
     <div className="body">
+      <Helmet>
+        <title>Folkets Kebab Hornsgatan 92</title>
+        <meta name="description" content="Folkets Kebab är kebab restaurang med buffe och med en mäng olika orientaliska rätter av de bästa råvarorna.  På Hornsgatan 92, 11821 Stockholm. "/>
+        <link rel="canonical" href="/"/>
+      </Helmet>
       <ScrollToTop/>
       <header className="App-header">
         <Navbar/>
@@ -43,6 +51,7 @@ function App() {
               </div>
               <Adress/>
       </div>
+      
     </div>
   );
 }

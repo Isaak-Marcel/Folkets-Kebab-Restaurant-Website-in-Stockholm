@@ -16,6 +16,9 @@ import mixVeg from '../Assets/images/Tallrikkar/Mix Veg 30x20.jpg'
 import quzi from '../Assets/images/Tallrikkar/Quzi 30x20.jpg'
 import shish from '../Assets/images/Tallrikkar/Shish 30x20.jpg'
 import special from '../Assets/images/Tallrikkar/special 30x20.jpg'
+
+import { Helmet } from 'react-helmet-async';
+
 const dishes = [
   {
     id: 1,
@@ -106,7 +109,14 @@ function Tallrikar() {
   ));
 
   return (
-   <div className="dish-list">{dishesComponents}</div>
+    
+   <div className="dish-list">
+      <Helmet>
+        <title>Tallrikar</title>
+        <meta name="description" content=" På vår tallrikar sida hittar du en mängd olika läckra orientaliska rätter"/>
+        <link rel="canonical" href="/tallrikar"/>
+      </Helmet>
+    {dishesComponents}</div>
   )
 }
 
