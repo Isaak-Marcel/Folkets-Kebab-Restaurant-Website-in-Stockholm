@@ -11,7 +11,7 @@ function Catering() {
 
   return (
     <div className='button-aboutUs-cont'>
-        <Helmet>
+      <Helmet>
           <title>Catering</title>
           <meta name="description" content="Vi erbjuder cateringtjänster för alla typer av evenemang. Vi tillhandahåller en mängd olika menyer som passar alla smaker och budgetar." />
           <link rel="canonical" href="/catering"/>

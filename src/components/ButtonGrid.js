@@ -4,8 +4,9 @@ import image2 from '../Assets/images/ButtonImages/Kebab Rulle 936x936.jpg'
 import image3 from '../Assets/images/ButtonImages/Kebab Tallrik 936x936.jpg'
 import image4 from '../Assets/images/ButtonImages/Arabi 936x936.jpg'
 import image5 from '../Assets/images/ButtonImages/Atmosfären 936x936.jpg'
-import image6 from '../Assets/images/ButtonImages/buffe test image 936x936.jpg'
+import image6 from '../Assets/images/ButtonImages/Catering button 936x936.jpg'
 import image7 from '../Assets/images/ButtonImages/NyMenu 936x936.jpg'
+
 import { Link } from 'react-router-dom';
 
 function ButtonGrid() {
