@@ -56,7 +56,7 @@ function ButtonGrid() {
           {cardData.map((card, index) => (
             <Link key={index} to={`/${card.link}`} className="card">
               <img src={card.image} alt={card.text} width={328} height={328} className="card-image" />
-              <div className="card-text"> <h3 style={{margin: '0', color: card.color, textDecorationColor: 'white'}} className={card.class}>{card.text} </h3></div>
+              <div className="card-text"> <h3 style={{margin: '0', color: card.color, textDecorationColor: 'white'}} className={card.class + ' cardTextClass'} >{card.text} </h3></div>
               <div className="card-arrow">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />

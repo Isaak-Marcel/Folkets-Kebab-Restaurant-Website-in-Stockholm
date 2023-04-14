@@ -230,7 +230,25 @@ transform: rotate(-45deg);
     .fix-under-line-on-buttons {
       text-decoration-color: black !important;
     }
-  }
+}
+
+
+@media (max-width: 339px) {
+    .card-text .cardTextClass{
+        font-size: var(--fs--400) !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .card-text{
+        overflow: hidden;
+     
+    }
+    .om-oss-p{
+        font-size: 1.4rem !important ;
+        line-height: 1.8rem !important;
+    }
+
+}
 
 
 
