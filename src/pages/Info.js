@@ -19,7 +19,7 @@ function Info() {
       <h1>Info</h1> 
         <div style={{display: 'flex',}}  className='infoPI'>
               <div className="infoWrap">
-                    <p className='info-p'>Besök oss på Hornsgatan 92 i Zinkensdamm och ta del av vår varierande buffé, som erbjuder ett utbud av läckra orientaliska rätter. <strong> Buffén är öppen på helger mellan kl. 10:00 - 18:00.</strong> </p>
+                    <p className='info-p'>Besök oss på Hornsgatan 92 i Zinkensdamm och ta del av vår varierande buffé, som erbjuder ett utbud av läckra orientaliska rätter.</p>
                     <p className='info-p'><strong>Vår vanliga à la carte-meny är öppen varje dag från kl. 10:00 - 04:00 </strong>, vilket ger dig möjligheten att avnjuta våra smakrika rätter när som helst på dagen.</p>
                 
                     <p className='info-p'>
