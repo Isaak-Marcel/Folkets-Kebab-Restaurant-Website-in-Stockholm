@@ -10,7 +10,7 @@
   }
   
   .buffeCont p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 550;
     font-family: inter;
     width: 80%;
@@ -56,7 +56,7 @@
   
   @media screen and (max-width: 1255px) {
     .buffeCont p {
-      font-size: 1.7em;
+      font-size: 1.2em;
     }
      .buffecontppppp {
       height: auto;
@@ -103,7 +103,7 @@
   
   @media screen and (max-width: 517px) {
     .buffeCont p {
-      font-size: 1.3em;
+      font-size: 1.0em;
     }
   }
   

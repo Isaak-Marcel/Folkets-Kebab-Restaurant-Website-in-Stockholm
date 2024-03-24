@@ -9,27 +9,39 @@ import { Helmet } from 'react-helmet-async';
 function Buffe() {
   return (
     <div className='buffeCont button-aboutUs-cont'>
-        <Helmet>
-          <title>Buffe</title>
-          <meta name="description" content="På vår buffe på övervåning hittar du en mängd olika orientaliska rätter som är tillagade med de finaste och mest utsökta ingredienserna."/>
-          <link rel="canonical" href="/buffe"/>
-        </Helmet>
+      <Helmet>
+        <title>Buffe</title>
+        <meta name="description" content="På vår buffe på övervåning hittar du en mängd olika orientaliska rätter som är tillagade med de finaste och mest utsökta ingredienserna." />
+        <link rel="canonical" href="/buffe" />
+      </Helmet>
       <h1>Buffe</h1>
       <div className='BuffeandImagePCont'>
-        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }} className='buffecontppppp'>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }} className='buffecontppppp'>
           <div className='buffepDiv'>
-          <p style={{marginBottom: '30px'}}>Vår buffé ligger på övervåningen och är öppen på helger mellan kl. 10:00 - 18:00</p>
-          <p>Buffen inehåller en massa olika orgentalisk rätter</p>
+            {/*   <p style={{ marginBottom: '30px' }}>Vår buffé ligger på övervåningen och är öppen på helger mellan kl. 10:00 - 18:00</p>
+            <p>Buffen inehåller en massa olika orgentalisk rätter</p> */}
+            <p>
+              Ramadan iftar buffé för 200 kr per person 150 kr för barn.
+              <br />
+              <br />
+              Vänligen ring <a href='tel:086699166'>086699166</a> o boka bord
+              <br />
+              <br />
+              Vi tar emot endast Swish förskottsbetalning för alla som kommer
+              <br />
+              <br />
+              Ungefär 18.00 fram till 21.00
+            </p>
           </div>
           <img alt='' className='buffeimageBelowP' src={imageBelowP} height={200} />
         </div>
         <div className='buffeContImage2'>
-          <img src={sideImage} alt='' height={500}/>
+          <img src={sideImage} alt='' height={500} />
         </div>
       </div>
 
 
-      <img className='imageBottomStreachFullWidth' src={bottomImage} alt=''  />
+      <img className='imageBottomStreachFullWidth' src={bottomImage} alt='' />
     </div>
   )
 }
