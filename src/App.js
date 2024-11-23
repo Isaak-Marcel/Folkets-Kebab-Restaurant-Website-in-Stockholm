@@ -46,9 +46,9 @@ function App() {
               <ButtonGrid/>
               <AboutUs/>
               <HittaOss/>
-              <div id="social-meida" ref={socialMediaRef}>
+              {/* <div id="social-meida" ref={socialMediaRef}>
                <SoicalMedia/>
-              </div>
+              </div> */}
               <Adress/>
       </div>
       
